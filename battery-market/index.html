@@ -1,0 +1,701 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>باتری‌مارکت | خرید آنلاین باتری خودرو</title>
+
+    <meta name="description" content="خرید آنلاین باتری خودرو از برندهای معتبر، مشاهده محصولات و انتخاب باتری متناسب با خودرو در باتری‌مارکت.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- نوار بالایی -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <span>خرید آسان باتری خودرو، فقط چند قدم تا انتخاب مناسب</span>
+            <span>پشتیبانی و مشاوره خرید</span>
+        </div>
+    </div>
+
+    <!-- هدر -->
+    <header class="main-header">
+        <div class="container header-content">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">B</span>
+                <span>باتری<span class="logo-blue">‌مارکت</span></span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn" aria-label="باز کردن منو">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#home">صفحه اصلی</a>
+                <a href="#finder">انتخاب باتری</a>
+                <a href="#products">محصولات</a>
+                <a href="#brands">برندها</a>
+                <a href="#services">خدمات ما</a>
+                <a href="#contact">تماس با ما</a>
+            </nav>
+
+            <div class="header-actions">
+
+                <button class="search-btn" id="searchBtn" aria-label="جستجو">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="7"></circle>
+                        <path d="m16 16 4 4"></path>
+                    </svg>
+                </button>
+
+                <button class="cart-btn" id="cartBtn">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M3 3h2l2.2 11.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.4L22 8H6"></path>
+                        <circle cx="10" cy="20" r="1"></circle>
+                        <circle cx="19" cy="20" r="1"></circle>
+                    </svg>
+                    <span>سبد خرید</span>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+            </div>
+        </div>
+
+        <!-- پنل جستجو -->
+        <div class="search-panel" id="searchPanel">
+            <div class="container search-panel-inner">
+                <input type="text" id="searchInput" placeholder="نام باتری یا محصول مورد نظر را وارد کنید...">
+                <button id="closeSearch" aria-label="بستن جستجو">×</button>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- بخش اصلی -->
+        <section class="hero-section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <span class="hero-label">فروشگاه تخصصی باتری خودرو</span>
+
+                    <h1>
+                        انرژی مطمئن،
+                        <span>شروع یک رانندگی بی‌دغدغه</span>
+                    </h1>
+
+                    <p>
+                        باتری مناسب خودروی خود را به‌راحتی پیدا کنید.
+                        مجموعه‌ای از باتری‌های متنوع با امکان انتخاب
+                        بر اساس برند و مدل خودرو.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">مشاهده محصولات</a>
+                        <a href="#finder" class="btn btn-outline">انتخاب باتری خودرو</a>
+                    </div>
+
+                    <div class="hero-features">
+                        <div>
+                            <strong>انتخاب آسان</strong>
+                            <span>جستجوی باتری</span>
+                        </div>
+                        <div>
+                            <strong>تنوع محصولات</strong>
+                            <span>مدل‌های مختلف</span>
+                        </div>
+                        <div>
+                            <strong>مشاوره خرید</strong>
+                            <span>راهنمای انتخاب</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="images/hero-battery.jpg"
+                        alt="باتری خودرو و محصولات باتری‌مارکت"
+                    >
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- مزایا -->
+        <section class="benefits-section">
+            <div class="container benefits-grid">
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div>
+                        <h3>انتخاب آسان</h3>
+                        <p>پیدا کردن باتری متناسب با خودرو</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">⚡</div>
+                    <div>
+                        <h3>تنوع محصولات</h3>
+                        <p>مشاهده مدل‌ها و ظرفیت‌های مختلف</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">♧</div>
+                    <div>
+                        <h3>راهنمای خرید</h3>
+                        <p>اطلاعات برای انتخاب آگاهانه</p>
+                    </div>
+                </div>
+
+                <div class="benefit-item">
+                    <div class="benefit-icon">☎</div>
+                    <div>
+                        <h3>پشتیبانی</h3>
+                        <p>امکان دریافت راهنمایی پیش از خرید</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- انتخاب باتری خودرو -->
+        <section class="finder-section" id="finder">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>جستجوی هوشمند</span>
+                    <h2>باتری مناسب خودروی خود را پیدا کنید</h2>
+                    <p>خودروی خود را انتخاب کنید تا پیشنهاد نمایشی باتری را مشاهده کنید.</p>
+                </div>
+
+                <div class="finder-box">
+
+                    <div class="finder-intro">
+                        <div class="finder-icon">🚘</div>
+                        <h3>خودروی شما چیست؟</h3>
+                        <p>با انتخاب مشخصات خودرو، جستجو را شروع کنید.</p>
+                    </div>
+
+                    <div class="finder-fields">
+
+                        <div class="form-group">
+                            <label for="carBrand">برند خودرو</label>
+                            <select id="carBrand">
+                                <option value="">انتخاب برند خودرو</option>
+                                <option value="پژو">پژو</option>
+                                <option value="سمند">سمند</option>
+                                <option value="پراید">پراید</option>
+                                <option value="تیبا">تیبا</option>
+                                <option value="ساینا">ساینا</option>
+                                <option value="دنا">دنا</option>
+                                <option value="تارا">تارا</option>
+                                <option value="رنو">رنو</option>
+                                <option value="هیوندای">هیوندای</option>
+                                <option value="کیا">کیا</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="carModel">مدل خودرو</label>
+                            <select id="carModel">
+                                <option value="">ابتدا برند را انتخاب کنید</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="carYear">سال تولید</label>
+                            <select id="carYear">
+                                <option value="">انتخاب سال تولید</option>
+                                <option value="1405">۱۴۰۵</option>
+                                <option value="1404">۱۴۰۴</option>
+                                <option value="1403">۱۴۰۳</option>
+                                <option value="1402">۱۴۰۲</option>
+                                <option value="1401">۱۴۰۱</option>
+                                <option value="1400">۱۴۰۰</option>
+                                <option value="1399">۱۳۹۹</option>
+                                <option value="1398">۱۳۹۸</option>
+                                <option value="1397">۱۳۹۷</option>
+                                <option value="1396">۱۳۹۶</option>
+                            </select>
+                        </div>
+
+                        <button class="btn btn-primary finder-submit" id="findBattery">
+                            پیدا کردن باتری
+                        </button>
+
+                    </div>
+
+                    <div class="finder-message" id="finderMessage"></div>
+
+                    <p class="finder-note">
+                        توجه: نتایج این بخش نمایشی هستند و ظرفیت و سازگاری نهایی
+                        باید با مشخصات فنی خودرو و نظر متخصص بررسی شود.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- دسته بندی -->
+        <section class="categories-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>دسته‌بندی محصولات</span>
+                    <h2>باتری مورد نیازتان را انتخاب کنید</h2>
+                    <p>برای مشاهده محصولات، دسته‌بندی مورد نظر را انتخاب کنید.</p>
+                </div>
+
+                <div class="categories-grid">
+
+                    <a href="#products" class="category-card" data-category="car">
+                        <div class="category-image">
+                            <img src="images/battery-55.jpg" alt="باتری خودرو">
+                        </div>
+                        <div class="category-info">
+                            <h3>باتری خودرو</h3>
+                            <span>مشاهده محصولات ←</span>
+                        </div>
+                    </a>
+
+                    <a href="#products" class="category-card" data-category="light">
+                        <div class="category-image">
+                            <img src="images/battery-60.jpg" alt="باتری خودروهای سبک">
+                        </div>
+                        <div class="category-info">
+                            <h3>باتری خودروهای سبک</h3>
+                            <span>مشاهده محصولات ←</span>
+                        </div>
+                    </a>
+
+                    <a href="#products" class="category-card" data-category="heavy">
+                        <div class="category-image">
+                            <img src="images/battery-90.jpg" alt="باتری خودروهای سنگین">
+                        </div>
+                        <div class="category-info">
+                            <h3>باتری خودروهای سنگین</h3>
+                            <span>مشاهده محصولات ←</span>
+                        </div>
+                    </a>
+
+                    <a href="#products" class="category-card" data-category="accessories">
+                        <div class="category-image">
+                            <img src="images/battery-brand.jpg" alt="محصولات و تجهیزات باتری">
+                        </div>
+                        <div class="category-info">
+                            <h3>محصولات و تجهیزات</h3>
+                            <span>مشاهده محصولات ←</span>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- محصولات -->
+        <section class="products-section" id="products">
+            <div class="container">
+
+                <div class="section-heading products-heading">
+                    <div>
+                        <span>محصولات فروشگاه</span>
+                        <h2>پرفروش‌ترین باتری‌ها</h2>
+                        <p>مدل‌های متنوع باتری را بررسی و مقایسه کنید.</p>
+                    </div>
+
+                    <a href="#products" class="view-all">مشاهده همه محصولات ←</a>
+                </div>
+
+                <div class="product-filters">
+                    <button class="product-filter active" data-filter="all">همه محصولات</button>
+                    <button class="product-filter" data-filter="car">باتری خودرو</button>
+                    <button class="product-filter" data-filter="light">باتری سبک</button>
+                    <button class="product-filter" data-filter="heavy">باتری سنگین</button>
+                </div>
+
+                <div class="products-grid" id="productGrid">
+
+                    <!-- محصول اول -->
+                    <article class="product-card"
+                        data-category="car"
+                        data-name="باتری ۵۵ آمپر خودرو"
+                        data-product="باتری ۵۵ آمپر"
+                        data-price="2850000">
+
+                        <div class="product-image">
+                            <span class="product-tag">پیشنهاد فروشگاه</span>
+                            <img src="images/battery-55.jpg" alt="باتری ۵۵ آمپر خودرو">
+                            <button class="quick-view" type="button" aria-label="مشاهده باتری">+</button>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">باتری خودرو</span>
+                            <h3>باتری خودرو ۵۵ آمپر</h3>
+                            <p class="product-description">مناسب برای برخی خودروهای سواری</p>
+
+                            <div class="product-meta">
+                                <span>ظرفیت: ۵۵ آمپر</span>
+                                <span>۱۲ ولت</span>
+                            </div>
+
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <strong>۲,۸۵۰,۰۰۰</strong>
+                                    <span>تومان</span>
+                                </div>
+
+                                <button class="add-to-cart" type="button">
+                                    افزودن +
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- محصول دوم -->
+                    <article class="product-card"
+                        data-category="light"
+                        data-name="باتری ۶۰ آمپر خودرو"
+                        data-product="باتری ۶۰ آمپر"
+                        data-price="3250000">
+
+                        <div class="product-image">
+                            <span class="product-tag">انتخاب محبوب</span>
+                            <img src="images/battery-60.jpg" alt="باتری ۶۰ آمپر خودرو">
+                            <button class="quick-view" type="button" aria-label="مشاهده باتری">+</button>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">باتری خودرو</span>
+                            <h3>باتری خودرو ۶۰ آمپر</h3>
+                            <p class="product-description">گزینه‌ای برای برخی خودروهای سواری</p>
+
+                            <div class="product-meta">
+                                <span>ظرفیت: ۶۰ آمپر</span>
+                                <span>۱۲ ولت</span>
+                            </div>
+
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <strong>۳,۲۵۰,۰۰۰</strong>
+                                    <span>تومان</span>
+                                </div>
+
+                                <button class="add-to-cart" type="button">
+                                    افزودن +
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- محصول سوم -->
+                    <article class="product-card"
+                        data-category="light"
+                        data-name="باتری ۷۴ آمپر خودرو"
+                        data-product="باتری ۷۴ آمپر"
+                        data-price="3850000">
+
+                        <div class="product-image">
+                            <span class="product-tag">ظرفیت بالاتر</span>
+                            <img src="images/battery-74.jpg" alt="باتری ۷۴ آمپر خودرو">
+                            <button class="quick-view" type="button" aria-label="مشاهده باتری">+</button>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">باتری خودرو</span>
+                            <h3>باتری خودرو ۷۴ آمپر</h3>
+                            <p class="product-description">برای خودروهای نیازمند ظرفیت بالاتر</p>
+
+                            <div class="product-meta">
+                                <span>ظرفیت: ۷۴ آمپر</span>
+                                <span>۱۲ ولت</span>
+                            </div>
+
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <strong>۳,۸۵۰,۰۰۰</strong>
+                                    <span>تومان</span>
+                                </div>
+
+                                <button class="add-to-cart" type="button">
+                                    افزودن +
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <!-- محصول چهارم -->
+                    <article class="product-card"
+                        data-category="heavy"
+                        data-name="باتری ۹۰ آمپر خودرو"
+                        data-product="باتری ۹۰ آمپر"
+                        data-price="4650000">
+
+                        <div class="product-image">
+                            <span class="product-tag">ظرفیت بالا</span>
+                            <img src="images/battery-90.jpg" alt="باتری ۹۰ آمپر خودرو">
+                            <button class="quick-view" type="button" aria-label="مشاهده باتری">+</button>
+                        </div>
+
+                        <div class="product-info">
+                            <span class="product-category">باتری ظرفیت بالا</span>
+                            <h3>باتری خودرو ۹۰ آمپر</h3>
+                            <p class="product-description">برای خودروهای متناسب با این ظرفیت</p>
+
+                            <div class="product-meta">
+                                <span>ظرفیت: ۹۰ آمپر</span>
+                                <span>۱۲ ولت</span>
+                            </div>
+
+                            <div class="product-bottom">
+                                <div class="product-price">
+                                    <strong>۴,۶۵۰,۰۰۰</strong>
+                                    <span>تومان</span>
+                                </div>
+
+                                <button class="add-to-cart" type="button">
+                                    افزودن +
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="demo-disclaimer">
+                    قیمت‌ها و مشخصات این محصولات صرفاً نمونه نمایشی هستند.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- برندها -->
+        <section class="brands-section" id="brands">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span>برندهای باتری</span>
+                    <h2>برندهای متنوع، انتخاب‌های بیشتر</h2>
+                    <p>با برندهای مختلف باتری خودرو آشنا شوید.</p>
+                </div>
+
+                <div class="brands-banner">
+                    <img
+                        src="images/battery-brand.jpg"
+                        alt="مجموعه باتری‌های خودرو در فروشگاه"
+                    >
+                </div>
+
+                <div class="brands-grid">
+                    <div class="brand-item">صبا باتری</div>
+                    <div class="brand-item">سپاهان باتری</div>
+                    <div class="brand-item">اوربیتال</div>
+                    <div class="brand-item">برنا باتری</div>
+                    <div class="brand-item">وارتا</div>
+                </div>
+
+                <p class="demo-disclaimer">
+                    نام برندها برای نمایش نمونه در نسخه دمو درج شده‌اند.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- خدمات -->
+        <section class="services-section" id="services">
+            <div class="container">
+
+                <div class="services-content">
+
+                    <div class="services-text">
+                        <span class="section-kicker">خدمات باتری‌مارکت</span>
+
+                        <h2>
+                            فقط خرید باتری نیست؛
+                            <span>انتخابی آگاهانه‌تر</span>
+                        </h2>
+
+                        <p>
+                            هدف باتری‌مارکت ساده کردن فرایند انتخاب باتری خودرو است.
+                            از بررسی ظرفیت تا آشنایی با محصولات مختلف،
+                            اطلاعات مورد نیازتان را در یک فضای ساده پیدا کنید.
+                        </p>
+
+                        <div class="service-list">
+
+                            <div class="service-item">
+                                <span class="service-check">✓</span>
+                                <div>
+                                    <h3>راهنمای انتخاب باتری</h3>
+                                    <p>آشنایی با ظرفیت‌های مختلف باتری</p>
+                                </div>
+                            </div>
+
+                            <div class="service-item">
+                                <span class="service-check">✓</span>
+                                <div>
+                                    <h3>معرفی محصولات</h3>
+                                    <p>مشاهده مشخصات و مقایسه مدل‌ها</p>
+                                </div>
+                            </div>
+
+                            <div class="service-item">
+                                <span class="service-check">✓</span>
+                                <div>
+                                    <h3>مشاوره پیش از خرید</h3>
+                                    <p>امکان دریافت راهنمایی برای انتخاب مناسب</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <a href="#contact" class="btn btn-primary">ارتباط با ما</a>
+                    </div>
+
+                    <div class="services-image">
+                        <img
+                            src="images/battery-service.jpg"
+                            alt="نصب و تعویض باتری خودرو"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- تماس -->
+        <section class="contact-section" id="contact">
+            <div class="container contact-content">
+
+                <div>
+                    <span>ارتباط با باتری‌مارکت</span>
+                    <h2>برای انتخاب باتری مناسب، از ما راهنمایی بگیرید.</h2>
+                    <p>برای دریافت اطلاعات بیشتر درباره محصولات و خدمات با ما در ارتباط باشید.</p>
+                </div>
+
+                <a href="tel:02100000000" class="btn btn-white">
+                    تماس با فروشگاه
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- فوتر -->
+    <footer class="main-footer">
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-about">
+                    <a href="#home" class="logo footer-logo">
+                        <span class="logo-icon">B</span>
+                        <span>باتری<span class="logo-blue">‌مارکت</span></span>
+                    </a>
+
+                    <p>
+                        باتری‌مارکت؛ تجربه‌ای ساده‌تر برای بررسی،
+                        انتخاب و خرید باتری خودرو.
+                    </p>
+                </div>
+
+                <div class="footer-links">
+                    <h3>دسترسی سریع</h3>
+                    <a href="#home">صفحه اصلی</a>
+                    <a href="#finder">انتخاب باتری</a>
+                    <a href="#products">محصولات</a>
+                    <a href="#brands">برندها</a>
+                </div>
+
+                <div class="footer-links">
+                    <h3>راهنمای مشتریان</h3>
+                    <a href="#services">خدمات ما</a>
+                    <a href="#contact">تماس با ما</a>
+                    <a href="#finder">جستجوی باتری</a>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>راه‌های ارتباطی</h3>
+                    <p>تلفن: ۰۲۱-۰۰۰۰۰۰۰۰</p>
+                    <p>ایمیل: info@example.com</p>
+                    <p>پاسخگویی به مشتریان</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>تمام حقوق این سایت برای باتری‌مارکت محفوظ است.</p>
+                <span>طراحی شده با هدف تجربه خرید بهتر</span>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- سبد خرید -->
+    <div class="cart-backdrop" id="cartBackdrop"></div>
+
+    <aside class="cart-drawer" id="cartDrawer">
+
+        <div class="cart-header">
+            <h2>سبد خرید شما</h2>
+            <button class="cart-close" id="closeCart" aria-label="بستن سبد خرید">×</button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">سبد خرید شما خالی است.</p>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total-row">
+                <span>مجموع سبد خرید:</span>
+                <strong id="cartTotal">۰ تومان</strong>
+            </div>
+
+            <button class="btn btn-primary checkout-btn" id="checkoutBtn">
+                ادامه فرایند خرید
+            </button>
+
+            <p class="cart-demo-note">
+                این سبد خرید در نسخه دمو است و سفارش واقعی ثبت نمی‌کند.
+            </p>
+        </div>
+
+    </aside>
+
+
+    <!-- پیام اطلاع رسانی -->
+    <div class="toast" id="toast"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
